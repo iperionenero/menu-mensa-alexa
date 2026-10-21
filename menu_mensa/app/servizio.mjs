@@ -12,6 +12,9 @@ const OPTIONS_PATH = process.env.OPTIONS_PATH || '/data/options.json';
 const TZ = 'Europe/Rome';
 const NOTIFICA_ID = 'menu_mensa_errore';
 const TIMEOUT_MS = 10 * 60 * 1000;
+// Errori passeggeri (es. rete del container non ancora pronta all'avvio): riprova prima di arrendersi
+const TENTATIVI = Number(process.env.TENTATIVI || 3);
+const PAUSA_TENTATIVI_MS = Number(process.env.PAUSA_TENTATIVI_MS || 60 * 1000);
 
 const log = (...a) => console.log(`[${adesso().giorno} ${adesso().ora}]`, ...a);
 
@@ -67,10 +70,17 @@ async function aggiorna(opzioni, motivo) {
   inCorso = true;
   log(`Aggiornamento (${motivo})...`);
   try {
-    const rc = await eseguiPubblica(opzioni);
+    let rc = 1;
+    for (let tentativo = 1; tentativo <= TENTATIVI; tentativo++) {
+      rc = await eseguiPubblica(opzioni);
+      if (rc === 0 || tentativo === TENTATIVI) break;
+      log(`Tentativo ${tentativo} di ${TENTATIVI} non riuscito: riprovo tra un minuto.`);
+      await new Promise(r => setTimeout(r, PAUSA_TENTATIVI_MS));
+    }
     if (rc === 0) {
       log('Aggiornamento riuscito.');
-      if (ultimoErrore) await servizioHA('dismiss', { notification_id: NOTIFICA_ID });
+      // sempre, anche dopo un riavvio: l'errore può essere di un'esecuzione precedente
+      await servizioHA('dismiss', { notification_id: NOTIFICA_ID });
       ultimoErrore = false;
     } else {
       log(`ERRORE: aggiornamento non riuscito (codice ${rc}).`);

@@ -1,5 +1,5 @@
 name: Menu mensa
-version: "1.0.1"
+version: "1.0.2"
 slug: menu_mensa
 description: Legge ogni giorno il menu della mensa da Menu Chiaro e lo pubblica su GitHub per la skill Alexa
 url: https://github.com/iperionenero/menu-mensa-alexa
