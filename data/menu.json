@@ -1,0 +1,406 @@
+{
+  "menu": "INFANZIA",
+  "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
+  "updated_at": "2026-10-21T09:15:00.000Z",
+  "days": {
+    "2026-10-11": {
+      "closed": true,
+      "items": []
+    },
+    "2026-10-12": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RISO CON CREMA DI ZAFFERANO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "UOVA STRAPAZZATE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "CAROTE JULIENNE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE INTEGRALE"
+        }
+      ]
+    },
+    "2026-10-13": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA INTEGRALE CON SUGO DI PEPERONI"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FORMAGGIO STRACCHINO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA VERDE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-14": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "GNOCCHI DI PATATE AL POMODORO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "TORTINO RICOTTA E ZUCCHINE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "PISELLI* ALL'OLIO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-15": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA CON PESTO DI ZUCCHINE"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "SCALOPPINA DI POLLO AL LIMONE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FAGIOLINI* ALL'OLIO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-16": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "CREMA DI VERDURE CON CROSTINI"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FILETTO DI LIMANDA* OLIO E PREZZEMOLO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "POMODORI E MAIS"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "GELATO ALLA FRAGOLA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-17": {
+      "closed": true,
+      "items": []
+    },
+    "2026-10-18": {
+      "closed": true,
+      "items": []
+    },
+    "2026-10-19": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RAVIOLI DI MAGRO OLIO E SALVIA"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "MOZZARELLA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA CETRIOLI E MAIS"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE INTEGRALE"
+        }
+      ]
+    },
+    "2026-10-20": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA AL POMODORO E BASILICO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "SFORMATO RICOTTA E VERDURE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "CAROTE JULIENNE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-21": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "CREMA DI CAROTE CON RISO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "POLPETTE DI MANZO AL FORNO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "PATATE AL FORNO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-22": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "GNOCCHETTI SARDI AL PESTO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "COTOLETTA DI LONZA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "POMODORI IN INSALATA"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-23": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA INTEGRALE POMODORO E OLIVE"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "TOTANI* GRATINATI"
+        },
+        {
+          "category": "Contorno",
+          "dish": "ZUCCHINE AL FORNO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-24": {
+      "closed": true,
+      "items": []
+    },
+    "2026-10-25": {
+      "closed": true,
+      "items": []
+    },
+    "2026-10-26": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA AL POMODORO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FRITTATA AL FORMAGGIO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FAGIOLINI* ALL'OLIO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE INTEGRALE"
+        }
+      ]
+    },
+    "2026-10-27": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "SPAGHETTI AL RAGU' BOLOGNESE"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "ACQUA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA MAIS E OLIVE NERE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-28": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA AGLI AROMI"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "PLATESSA* IMPANATA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "CAROTE JULIENNE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-29": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA INTEGRALE ALLA MIMOSA"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "BOCCONCINI DI TACCHINO AGLI AROMI"
+        },
+        {
+          "category": "Contorno",
+          "dish": "PISELLI* ALL'OLIO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        }
+      ]
+    },
+    "2026-10-30": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PIZZA"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "ACQUA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "POMODORI CON ORIGANO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "GELATO PANNA E CIOCCOLATO"
+        },
+        {
+          "category": "Pane",
+          "dish": "GRISSINI"
+        }
+      ]
+    },
+    "2026-10-31": {
+      "closed": true,
+      "items": []
+    }
+  }
+}
