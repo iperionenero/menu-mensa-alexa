@@ -27,7 +27,7 @@ const url = `${API}/repos/${REPO}/contents/${FILE}`;
 async function leggiRemoto() {
   const r = await fetch(`${url}?ref=${BRANCH}`, { headers });
   if (r.status === 404) return { sha: undefined, text: null };
-  if (r.status === 401) throw new Error('GitHub: token non valido o scaduto (401). Creane uno nuovo e lancia locale/installa.sh --nuovo-token');
+  if (r.status === 401) throw new Error('GitHub: token non valido o scaduto (401). Creane uno nuovo, inseriscilo nella configurazione dell\'add-on e riavvialo');
   if (!r.ok) throw new Error(`GitHub GET ${r.status}: ${await r.text()}`);
   const j = await r.json();
   return { sha: j.sha, text: Buffer.from(j.content, 'base64').toString('utf8') };

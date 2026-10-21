@@ -4,7 +4,7 @@ Skill Alexa che legge il menu della mensa (Menu Chiaro CIRFOOD, Comune di Cinise
 
 > «Alexa, apri menu della mensa» → *«Oggi [nome] mangia crema di carote con riso, poi polpette di manzo al forno, con contorno di patate al forno. Per finire, frutta estiva.»*
 
-Costo: **zero**, niente abbonamenti (il menu si aggiorna da un Mac di casa, GitHub ospita il file gratis, la skill Alexa-hosted rientra nel piano gratuito di Amazon).
+Costo: **zero**, niente abbonamenti (il menu si aggiorna da Home Assistant in casa, GitHub ospita il file gratis, la skill Alexa-hosted rientra nel piano gratuito di Amazon).
 
 ## Come funziona
 
@@ -16,15 +16,14 @@ Echo ◀── skill Alexa-hosted (legge il JSON, fuso orario Europe/Rome) ◀�
 
 Il sito Menu Chiaro è un'app Blazor Server: i piatti arrivano via websocket e non c'è un'API da interrogare. Per questo lo scraper apre la pagina in un browser vero, clicca i giorni del calendario (il sito mostra circa 10 giorni indietro e 10 avanti) e salva tutto in `data/menu.json`. Alexa legge solo quel file, quindi risponde in fretta e funziona anche se il sito è lento.
 
-Perché in casa (Home Assistant o Mac) e non su GitHub Actions: Menu Chiaro risponde **403 Forbidden** agli IP dei datacenter (verificato il 21/10/2026 con i server di GitHub), mentre da una connessione normale funziona.
+Perché in casa e non su GitHub Actions: Menu Chiaro risponde **403 Forbidden** agli IP dei datacenter (verificato il 21/10/2026 con i server di GitHub), mentre da una connessione normale funziona.
 
 ## Contenuto
 
 | Percorso | A cosa serve |
 |---|---|
 | `scraper/scrape.mjs` | Legge il menu dal sito e scrive `data/menu.json` |
-| `repository.yaml`, `menu_mensa/` | Add-on Home Assistant che aggiorna il menu (contiene una copia di `scrape.mjs` e `pubblica.mjs`: se modifichi lo scraper, aggiorna entrambe e alza `version` in `menu_mensa/config.yaml`) |
-| `locale/` | Alternativa: aggiornamento automatico sul Mac: `installa.sh`, `aggiorna.sh` (lanciato da macOS), `pubblica.mjs` (carica il file su GitHub), `disinstalla.sh` |
+| `repository.yaml`, `menu_mensa/` | Add-on Home Assistant che aggiorna il menu: `servizio.mjs` (pianificazione), `pubblica.mjs` (carica il file su GitHub) e una copia di `scrape.mjs`. Se modifichi lo scraper, aggiorna entrambe le copie e alza `version` in `menu_mensa/config.yaml` |
 | `.github/workflows/aggiorna-menu.yml` | Versione GitHub Actions: solo manuale, perché il sito blocca i server di GitHub |
 | `data/menu.json` | Il menu: già popolato con i dati reali dall'11 al 31 ottobre 2026 |
 | `alexa/interaction-model-it-IT.json` | Modello vocale da incollare nella console Alexa (solo nella copia locale, non su GitHub) |
@@ -37,32 +36,21 @@ Perché in casa (Home Assistant o Mac) e non su GitHub Actions: Menu Chiaro risp
 Repository pubblico `iperionenero/menu-mensa-alexa` (pubblico perché Alexa possa leggere il JSON senza credenziali). Il file letto da Alexa è:
 `https://raw.githubusercontent.com/iperionenero/menu-mensa-alexa/main/data/menu.json`
 
-### 1b. Aggiornamento automatico su Home Assistant (consigliato)
+### 1b. Aggiornamento automatico su Home Assistant
 
 Serve Home Assistant con il Supervisor (Home Assistant OS), acceso tutto il giorno sulla rete di casa.
 
-1. **Token GitHub**: crealo come descritto sotto per il Mac, ma chiamalo `menu-mensa-ha`.
+1. **Token GitHub** (solo per questo repository): <https://github.com/settings/personal-access-tokens/new> con l'account `iperionenero`
+   - *Token name*: `menu-mensa-ha` — *Expiration*: la più lunga disponibile
+   - *Repository access*: **Only select repositories** → `menu-mensa-alexa`
+   - *Permissions* → *Repository permissions* → **Contents: Read and write** (il resto lascialo com'è)
+   - *Generate token* e copialo.
 2. In Home Assistant: **Impostazioni → Componenti aggiuntivi → Raccolta di componenti aggiuntivi** → menu ⋮ in alto a destra → **Repository** → aggiungi `https://github.com/iperionenero/menu-mensa-alexa`.
 3. Cerca **Menu mensa** nella raccolta e clicca **Installa**. La prima installazione prepara Chromium e richiede qualche minuto.
 4. Scheda **Configurazione**: incolla il token in *Token GitHub* e salva. Gli orari predefiniti sono 06:40 e 13:10.
 5. Scheda **Informazioni**: attiva *Avvio all'accensione* e clicca **Avvia**. Nel **Registro** deve comparire «Aggiornamento riuscito».
 
 Se un aggiornamento fallisce compare una notifica in Home Assistant. Per forzare un aggiornamento basta riavviare l'add-on.
-
-### 1c. In alternativa: aggiornamento automatico sul Mac
-
-1. **Token GitHub** (solo per questo repository): <https://github.com/settings/personal-access-tokens/new> con l'account `iperionenero`
-   - *Token name*: `menu-mensa-mac` — *Expiration*: la più lunga disponibile
-   - *Repository access*: **Only select repositories** → `menu-mensa-alexa`
-   - *Permissions* → *Repository permissions* → **Contents: Read and write** (il resto lascialo com'è)
-   - *Generate token* e copialo.
-2. Apri il **Terminale** e lancia:
-   ```
-   bash ~/Progetti/menu-mensa-alexa/locale/installa.sh
-   ```
-   Installa Playwright e Chromium, chiede il token (lo salva nel Portachiavi di macOS, non in un file), pianifica l'aggiornamento alle **6:40 e 13:10** e fa subito un giro di prova.
-
-Se il Mac è in stop all'orario previsto, macOS lancia l'aggiornamento al risveglio; se è spento, quell'aggiornamento salta. Il sito mostra circa 10 giorni in avanti, quindi basta che il Mac sia acceso qualche volta a settimana.
 
 ### 2. Skill Alexa
 
@@ -89,10 +77,9 @@ Non serve pubblicarla: le skill in sviluppo funzionano già su tutti gli Echo co
 
 ## Manutenzione
 
-- **Se l'aggiornamento fallisce** (es. CIRFOOD cambia il sito o il token scade) compare una notifica sul Mac e il dettaglio è in `logs/aggiorna.log`. Il file su GitHub non viene sovrascritto: Alexa continua a leggere gli ultimi dati validi (fino a ~10 giorni avanti). Lo scraper si ferma anche se il menu attivo non è INFANZIA o se legge meno di 3 giorni con piatti, per non pubblicare dati sbagliati.
+- **Se l'aggiornamento fallisce** (es. CIRFOOD cambia il sito o il token scade) compare una notifica in Home Assistant e il dettaglio è nel registro dell'add-on. Il file su GitHub non viene sovrascritto: Alexa continua a leggere gli ultimi dati validi (fino a ~10 giorni avanti). Lo scraper si ferma anche se il menu attivo non è INFANZIA o se legge meno di 3 giorni con piatti, per non pubblicare dati sbagliati.
 - **Cambio menu** (es. passaggio alla primaria): in `scraper/scrape.mjs` modifica `menuId` e `menuName`. L'id si trova scegliendo il menu sul sito e guardando, negli strumenti sviluppatore del browser, il valore di `menuchiaro:selected-menu:…` in *Local Storage* (INFANZIA = `1006`). Per la primaria cambia anche l'URL (`Utenza`).
-- **Token scaduto**: crea un token nuovo come al punto 1b e lancia `bash ~/Progetti/menu-mensa-alexa/locale/installa.sh --nuovo-token`.
-- **Togliere tutto dal Mac**: `bash ~/Progetti/menu-mensa-alexa/locale/disinstalla.sh` (rimuove la pianificazione e il token dal Portachiavi).
+- **Token scaduto**: crea un token nuovo come al punto 1b, incollalo nella configurazione dell'add-on e riavvialo.
 
 ## Note sui dati
 
