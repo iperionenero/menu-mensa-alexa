@@ -18,11 +18,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Installa dipendenze e Chromium
         run: |
@@ -31,6 +31,14 @@ jobs:
 
       - name: Leggi il menu da Menu Chiaro
         run: node scraper/scrape.mjs
+
+      - name: Screenshot della pagina in caso di errore
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostica
+          path: debug/
+          if-no-files-found: ignore
 
       - name: Salva il menu nel repository
         run: |
