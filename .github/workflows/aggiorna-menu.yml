@@ -1,10 +1,9 @@
 name: Aggiorna menu mensa
 
+# Pianificazione disattivata: menuchiaro.it risponde 403 ai server di GitHub.
+# L'aggiornamento gira sul Mac (cartella locale/). Resta solo il lancio manuale.
 on:
-  schedule:
-    # Ogni giorno alle 04:23 UTC = 06:23 ora legale / 05:23 ora solare
-    - cron: '23 4 * * *'
-  workflow_dispatch: {}   # pulsante "Run workflow" per lanciarlo a mano
+  workflow_dispatch: {}
 
 permissions:
   contents: write
