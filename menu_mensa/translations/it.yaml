@@ -1,0 +1,10 @@
+configuration:
+  github_token:
+    name: Token GitHub
+    description: Token fine-grained con permesso "Contents - Read and write" sul repository del menu.
+  orari:
+    name: Orari di aggiornamento
+    description: Ore e minuti in ora italiana, nel formato HH:MM. L'add-on aggiorna anche a ogni avvio.
+  repository:
+    name: Repository GitHub
+    description: Repository dove pubblicare data/menu.json, nel formato utente/nome.
