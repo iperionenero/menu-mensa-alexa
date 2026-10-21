@@ -87,7 +87,13 @@ async function readAllDaysInPage() {
 async function main() {
   const browser = await chromium.launch(
     process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {});
-  const context = await browser.newContext({ locale: 'it-IT', timezoneId: 'Europe/Rome' });
+  const context = await browser.newContext({
+    locale: 'it-IT',
+    timezoneId: 'Europe/Rome',
+    viewport: { width: 1280, height: 900 },
+    // user-agent di un Chrome normale: quello headless ("HeadlessChrome") può essere bloccato
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
+  });
   await context.addInitScript(({ cc, id, onb }) => {
     try {
       localStorage.setItem(`menuchiaro:onboarding:${cc}`, onb);
@@ -97,25 +103,42 @@ async function main() {
   }, { cc: CONFIG.customerCode, id: CONFIG.menuId, onb: ONBOARDING_DONE });
 
   const page = await context.newPage();
-  await page.goto(CONFIG.url, { waitUntil: 'domcontentloaded', timeout: 60000 });
-  await page.waitForSelector('.btn-calendar-day', { timeout: 60000 });
+  page.on('console', m => { if (m.type() === 'error') console.log('[console pagina]', m.text()); });
+  page.on('requestfailed', r => console.log('[richiesta fallita]', r.url(), r.failure()?.errorText));
 
-  // Se compare comunque la scelta dei menu, seleziona quello giusto e conferma
-  const chooser = page.getByText('Scegli i menù da visualizzare');
-  if (await chooser.isVisible().catch(() => false)) {
-    await page.getByText(CONFIG.menuName, { exact: true }).first().click();
-    await page.getByRole('button', { name: /conferma/i }).click();
+  let labels, result;
+  try {
+    await page.goto(CONFIG.url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    await page.waitForSelector('.btn-calendar-day', { state: 'attached', timeout: Number(process.env.WAIT_MS || 90000) });
+
+    // Se compare comunque la scelta dei menu, seleziona quello giusto e conferma
+    const chooser = page.getByText('Scegli i menù da visualizzare');
+    if (await chooser.isVisible().catch(() => false)) {
+      await page.getByText(CONFIG.menuName, { exact: true }).first().click();
+      await page.getByRole('button', { name: /conferma/i }).click();
+    }
+
+    await page.waitForSelector('.card-menu-item', { state: 'attached', timeout: 60000 });
+
+    // Controllo: il menu attivo deve essere quello giusto, altrimenti non si pubblica nulla
+    const activeMenu = (await page.locator('.toolbar .btn-outline-primary.active').first().innerText()).trim();
+    if (activeMenu.toUpperCase() !== CONFIG.menuName.toUpperCase()) {
+      throw new Error(`Menu attivo "${activeMenu}" invece di "${CONFIG.menuName}": non aggiorno il file`);
+    }
+
+    ({ labels, result } = await page.evaluate(readAllDaysInPage));
+  } catch (err) {
+    // Diagnostica: cosa vedeva la pagina al momento dell'errore
+    console.log('--- DIAGNOSTICA ---');
+    console.log('URL:', page.url());
+    console.log('Titolo:', await page.title().catch(() => '?'));
+    console.log('Testo pagina:', (await page.locator('body').innerText().catch(() => '')).slice(0, 2000));
+    console.log('HTML (inizio):', (await page.content().catch(() => '')).slice(0, 3000));
+    await fs.mkdir('debug', { recursive: true });
+    await page.screenshot({ path: 'debug/pagina.png', fullPage: true }).catch(() => {});
+    await browser.close();
+    throw err;
   }
-
-  await page.waitForSelector('.card-menu-item', { timeout: 60000 });
-
-  // Controllo: il menu attivo deve essere quello giusto, altrimenti non si pubblica nulla
-  const activeMenu = (await page.locator('.toolbar .btn-outline-primary.active').first().innerText()).trim();
-  if (activeMenu.toUpperCase() !== CONFIG.menuName.toUpperCase()) {
-    throw new Error(`Menu attivo "${activeMenu}" invece di "${CONFIG.menuName}": non aggiorno il file`);
-  }
-
-  const { labels, result } = await page.evaluate(readAllDaysInPage);
   await browser.close();
 
   const today = todayRome();
