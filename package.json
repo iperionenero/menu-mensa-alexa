@@ -1,0 +1,13 @@
+{
+  "name": "menu-mensa-alexa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scarica ogni giorno il menu della mensa da Menu Chiaro e lo pubblica come JSON per la skill Alexa",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper/scrape.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
