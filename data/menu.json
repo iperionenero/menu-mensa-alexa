@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-10-27T05:41:06.798Z",
+  "updated_at": "2026-10-27T12:11:07.605Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -156,12 +156,12 @@
           "dish": "INSALATA CETRIOLI E MAIS"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -181,12 +181,12 @@
           "dish": "CAROTE JULIENNE"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -206,12 +206,12 @@
           "dish": "PATATE AL FORNO"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -231,12 +231,12 @@
           "dish": "POMODORI IN INSALATA"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -256,12 +256,12 @@
           "dish": "ZUCCHINE AL FORNO"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -289,12 +289,12 @@
           "dish": "FAGIOLINI* ALL'OLIO"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -314,12 +314,12 @@
           "dish": "INSALATA MAIS E OLIVE NERE"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -339,12 +339,12 @@
           "dish": "CAROTE JULIENNE"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -364,12 +364,12 @@
           "dish": "PISELLI* ALL'OLIO"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
           "category": "Pane",
           "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA ESTIVA"
         }
       ]
     },
@@ -389,12 +389,12 @@
           "dish": "POMODORI CON ORIGANO"
         },
         {
-          "category": "Frutta Dessert",
-          "dish": "GELATO PANNA E CIOCCOLATO"
-        },
-        {
           "category": "Pane",
           "dish": "GRISSINI"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "GELATO PANNA E CIOCCOLATO"
         }
       ]
     },
