@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-10-28T05:41:09.923Z",
+  "updated_at": "2026-10-28T12:10:34.002Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -408,23 +408,104 @@
     },
     "2026-11-02": {
       "closed": false,
-      "items": []
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "SPAGHETTI AL RAGU' BOLOGNESE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA MAIS E OLIVE NERE CAROTE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "YOGURT B.CO DA BERE"
+        }
+      ]
     },
     "2026-11-03": {
       "closed": false,
-      "items": []
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RISO CON CREMA DI ZAFFERANO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FIL. PLATESSA* GRATINATA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FAGIOLINI* ALL'OLIO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
     },
     "2026-11-04": {
       "closed": false,
-      "items": []
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA POMODORO E PESTO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FRITTATA AL FORMAGGIO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA VERDE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
     },
     "2026-11-05": {
       "closed": false,
-      "items": []
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTINA IN BRODO VEGETALE"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "COSCE DI POLLO AL FORNO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "PURE' DI PATATE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
     },
     "2026-11-06": {
       "closed": false,
-      "items": []
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "CREMA DI LENTICCHIE CON FARRO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FORMAGGIO STRACCHINO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "ERBETTE* ALL'OLIO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
     },
     "2026-11-07": {
       "closed": true,
