@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-10-27T12:11:07.605Z",
+  "updated_at": "2026-10-28T05:41:09.923Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -424,6 +424,10 @@
     },
     "2026-11-06": {
       "closed": false,
+      "items": []
+    },
+    "2026-11-07": {
+      "closed": true,
       "items": []
     }
   }
