@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-10-28T12:10:34.002Z",
+  "updated_at": "2026-10-29T05:40:33.419Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -418,6 +418,10 @@
           "dish": "INSALATA MAIS E OLIVE NERE CAROTE"
         },
         {
+          "category": "Pane",
+          "dish": "PANE INTEGRALE"
+        },
+        {
           "category": "Frutta Dessert",
           "dish": "YOGURT B.CO DA BERE"
         }
@@ -437,6 +441,10 @@
         {
           "category": "Contorno",
           "dish": "FAGIOLINI* ALL'OLIO"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
         },
         {
           "category": "Frutta Dessert",
@@ -460,6 +468,10 @@
           "dish": "INSALATA VERDE"
         },
         {
+          "category": "Pane",
+          "dish": "PANE DI GRANO DURO"
+        },
+        {
           "category": "Frutta Dessert",
           "dish": "FRUTTA DI STAGIONE"
         }
@@ -479,6 +491,10 @@
         {
           "category": "Contorno",
           "dish": "PURE' DI PATATE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
         },
         {
           "category": "Frutta Dessert",
@@ -502,12 +518,20 @@
           "dish": "ERBETTE* ALL'OLIO"
         },
         {
+          "category": "Pane",
+          "dish": "PANE"
+        },
+        {
           "category": "Frutta Dessert",
           "dish": "FRUTTA DI STAGIONE"
         }
       ]
     },
     "2026-11-07": {
+      "closed": true,
+      "items": []
+    },
+    "2026-11-08": {
       "closed": true,
       "items": []
     }
