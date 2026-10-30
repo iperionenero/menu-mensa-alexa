@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-10-29T05:40:33.419Z",
+  "updated_at": "2026-10-30T05:40:29.896Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -534,6 +534,31 @@
     "2026-11-08": {
       "closed": true,
       "items": []
+    },
+    "2026-11-09": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RAVIOLI DI MAGRO IN BRODO VEGETALE"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FORMAGGIO ASIAGO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "SPINACI ALL'OLIO"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
     }
   }
 }
