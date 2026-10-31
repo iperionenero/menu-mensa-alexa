@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-10-30T05:40:29.896Z",
+  "updated_at": "2026-10-31T05:40:24.725Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -553,6 +553,31 @@
         {
           "category": "Pane",
           "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
+    },
+    "2026-11-10": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RISOTTO ALLA PARMIGIANA"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "UOVA STRAPAZZATE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FINOCCHI JULIENNE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
         },
         {
           "category": "Frutta Dessert",
