@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-01T05:40:20.527Z",
+  "updated_at": "2026-11-02T05:40:36.380Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -603,6 +603,31 @@
         {
           "category": "Pane",
           "dish": "PANE DI GRANO DURO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
+    },
+    "2026-11-12": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA ALLA CREMA DI FORMAGGI"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "TORTINO RICOTTA E ZUCCHINE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA VERDE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
         },
         {
           "category": "Frutta Dessert",
