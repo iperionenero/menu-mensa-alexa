@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-03T05:40:38.519Z",
+  "updated_at": "2026-11-04T05:40:31.636Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -659,6 +659,10 @@
           "dish": "FRUTTA DI STAGIONE"
         }
       ]
+    },
+    "2026-11-14": {
+      "closed": true,
+      "items": []
     }
   }
 }
