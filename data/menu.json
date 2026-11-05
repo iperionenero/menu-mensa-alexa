@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-05T05:40:34.487Z",
+  "updated_at": "2026-11-05T12:10:40.801Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -587,28 +587,7 @@
     },
     "2026-11-11": {
       "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "CREMA DI VERDURE CON ORZO"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "COTOLETTA DI POLLO"
-        },
-        {
-          "category": "Contorno",
-          "dish": "PATATE AL FORNO"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE DI GRANO DURO"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA DI STAGIONE"
-        }
-      ]
+      "items": []
     },
     "2026-11-12": {
       "closed": false,
