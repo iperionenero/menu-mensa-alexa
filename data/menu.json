@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-06T05:40:38.184Z",
+  "updated_at": "2026-11-06T12:10:32.614Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -429,7 +429,28 @@
     },
     "2026-11-03": {
       "closed": false,
-      "items": []
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RISO CON CREMA DI ZAFFERANO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FIL. PLATESSA* GRATINATA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FAGIOLINI* ALL'OLIO"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
     },
     "2026-11-04": {
       "closed": false,
