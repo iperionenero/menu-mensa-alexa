@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-08T05:40:30.792Z",
+  "updated_at": "2026-11-08T12:10:23.361Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -720,7 +720,24 @@
     },
     "2026-11-18": {
       "closed": false,
-      "items": []
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "LASAGNE ALLA BOLOGNESE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA CAROTE E MAIS"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE DI GRANO DURO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "DESSERT AL CACAO"
+        }
+      ]
     }
   }
 }
