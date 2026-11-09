@@ -1,7 +1,7 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-08T12:10:23.361Z",
+  "updated_at": "2026-11-09T05:40:20.228Z",
   "days": {
     "2026-10-11": {
       "closed": true,
@@ -736,6 +736,31 @@
         {
           "category": "Frutta Dessert",
           "dish": "DESSERT AL CACAO"
+        }
+      ]
+    },
+    "2026-11-19": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTINA IN BRODO VEGETALE"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "ARROSTO DI TACCHINO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "PURE' DI PATATE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
         }
       ]
     }
