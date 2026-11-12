@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-11T05:40:41.402Z",
+  "updated_at": "2026-11-12T05:40:34.274Z",
   "days": {
-    "2026-10-12": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "RISO CON CREMA DI ZAFFERANO"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "UOVA STRAPAZZATE"
-        },
-        {
-          "category": "Contorno",
-          "dish": "CAROTE JULIENNE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE INTEGRALE"
-        }
-      ]
-    },
     "2026-10-13": {
       "closed": false,
       "items": [
@@ -786,6 +761,10 @@
       ]
     },
     "2026-11-21": {
+      "closed": true,
+      "items": []
+    },
+    "2026-11-22": {
       "closed": true,
       "items": []
     }
