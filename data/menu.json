@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-12T05:40:34.274Z",
+  "updated_at": "2026-11-13T05:40:33.587Z",
   "days": {
-    "2026-10-13": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "PASTA INTEGRALE CON SUGO DI PEPERONI"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "FORMAGGIO STRACCHINO"
-        },
-        {
-          "category": "Contorno",
-          "dish": "INSALATA VERDE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        }
-      ]
-    },
     "2026-10-14": {
       "closed": false,
       "items": [
@@ -767,6 +742,31 @@
     "2026-11-22": {
       "closed": true,
       "items": []
+    },
+    "2026-11-23": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA AL POMODORO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "PETTO DI POLLO ALLA PIZZAIOLA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FAGIOLINI* ALL'OLIO"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
     }
   }
 }
