@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-13T05:40:33.587Z",
+  "updated_at": "2026-11-14T05:40:29.057Z",
   "days": {
-    "2026-10-14": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "GNOCCHI DI PATATE AL POMODORO"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "TORTINO RICOTTA E ZUCCHINE"
-        },
-        {
-          "category": "Contorno",
-          "dish": "PISELLI* ALL'OLIO"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        }
-      ]
-    },
     "2026-10-15": {
       "closed": false,
       "items": [
@@ -761,6 +736,31 @@
         {
           "category": "Pane",
           "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
+    },
+    "2026-11-24": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "CREMA DI CECI CON RISO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "TORTINO SALATO ALGI SPINACI*"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FINOCCHI JULIENNE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
         },
         {
           "category": "Frutta Dessert",
