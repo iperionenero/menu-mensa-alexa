@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-15T05:40:26.926Z",
+  "updated_at": "2026-11-16T05:40:27.979Z",
   "days": {
-    "2026-10-16": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "CREMA DI VERDURE CON CROSTINI"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "FILETTO DI LIMANDA* OLIO E PREZZEMOLO"
-        },
-        {
-          "category": "Contorno",
-          "dish": "POMODORI E MAIS"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "GELATO ALLA FRAGOLA"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        }
-      ]
-    },
     "2026-10-17": {
       "closed": true,
       "items": []
@@ -761,6 +736,31 @@
         {
           "category": "Pane",
           "dish": "PANE DI GRANO DURO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
+    },
+    "2026-11-26": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "CREMA DI VERDURE CON CROSTINI"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "BRASATO DI MANZO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "PATATE ALL'OLIO"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
         },
         {
           "category": "Frutta Dessert",
