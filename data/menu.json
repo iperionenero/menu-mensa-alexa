@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-18T05:40:23.050Z",
+  "updated_at": "2026-11-19T05:40:36.549Z",
   "days": {
-    "2026-10-19": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "RAVIOLI DI MAGRO OLIO E SALVIA"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "MOZZARELLA"
-        },
-        {
-          "category": "Contorno",
-          "dish": "INSALATA CETRIOLI E MAIS"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE INTEGRALE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        }
-      ]
-    },
     "2026-10-20": {
       "closed": false,
       "items": [
@@ -786,6 +761,10 @@
       ]
     },
     "2026-11-28": {
+      "closed": true,
+      "items": []
+    },
+    "2026-11-29": {
       "closed": true,
       "items": []
     }
