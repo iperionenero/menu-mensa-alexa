@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-19T05:40:36.549Z",
+  "updated_at": "2026-11-20T05:40:35.192Z",
   "days": {
-    "2026-10-20": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "PASTA AL POMODORO E BASILICO"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "SFORMATO RICOTTA E VERDURE"
-        },
-        {
-          "category": "Contorno",
-          "dish": "CAROTE JULIENNE"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        }
-      ]
-    },
     "2026-10-21": {
       "closed": false,
       "items": [
@@ -767,6 +742,27 @@
     "2026-11-29": {
       "closed": true,
       "items": []
+    },
+    "2026-11-30": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "SPAGHETTI AL RAGU' BOLOGNESE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA MAIS E OLIVE NERE CAROTE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "YOGURT B.CO DA BERE"
+        }
+      ]
     }
   }
 }
