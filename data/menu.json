@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-20T05:40:35.192Z",
+  "updated_at": "2026-11-21T05:40:33.938Z",
   "days": {
-    "2026-10-21": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "CREMA DI CAROTE CON RISO"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "POLPETTE DI MANZO AL FORNO"
-        },
-        {
-          "category": "Contorno",
-          "dish": "PATATE AL FORNO"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        }
-      ]
-    },
     "2026-10-22": {
       "closed": false,
       "items": [
@@ -761,6 +736,31 @@
         {
           "category": "Frutta Dessert",
           "dish": "YOGURT B.CO DA BERE"
+        }
+      ]
+    },
+    "2026-12-01": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RISO CON CREMA DI ZAFFERANO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FIL. PLATESSA* GRATINATA"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FAGIOLINI* ALL'OLIO"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
         }
       ]
     }
