@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-21T05:40:33.938Z",
+  "updated_at": "2026-11-22T05:40:32.953Z",
   "days": {
-    "2026-10-22": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "GNOCCHETTI SARDI AL PESTO"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "COTOLETTA DI LONZA"
-        },
-        {
-          "category": "Contorno",
-          "dish": "POMODORI IN INSALATA"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        }
-      ]
-    },
     "2026-10-23": {
       "closed": false,
       "items": [
@@ -757,6 +732,31 @@
         {
           "category": "Pane",
           "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
+    },
+    "2026-12-02": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTA POMODORO E PESTO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FRITTATA AL FORMAGGIO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "INSALATA VERDE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE DI GRANO DURO"
         },
         {
           "category": "Frutta Dessert",
