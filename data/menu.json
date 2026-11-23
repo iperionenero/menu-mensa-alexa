@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-22T05:40:32.953Z",
+  "updated_at": "2026-11-23T05:40:30.485Z",
   "days": {
-    "2026-10-23": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "PASTA INTEGRALE POMODORO E OLIVE"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "TOTANI* GRATINATI"
-        },
-        {
-          "category": "Contorno",
-          "dish": "ZUCCHINE AL FORNO"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        }
-      ]
-    },
     "2026-10-24": {
       "closed": true,
       "items": []
@@ -757,6 +732,31 @@
         {
           "category": "Pane",
           "dish": "PANE DI GRANO DURO"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
+    },
+    "2026-12-03": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "PASTINA IN BRODO VEGETALE"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "COSCE DI POLLO AL FORNO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "PURE' DI PATATE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
         },
         {
           "category": "Frutta Dessert",
