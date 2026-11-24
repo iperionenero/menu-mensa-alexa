@@ -1,12 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-23T05:40:30.485Z",
+  "updated_at": "2026-11-24T05:40:28.893Z",
   "days": {
-    "2026-10-24": {
-      "closed": true,
-      "items": []
-    },
     "2026-10-25": {
       "closed": true,
       "items": []
@@ -753,6 +749,31 @@
         {
           "category": "Contorno",
           "dish": "PURE' DI PATATE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
+    },
+    "2026-12-04": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "CREMA DI LENTICCHIE CON FARRO"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FORMAGGIO STRACCHINO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "ERBETTE* ALL'OLIO"
         },
         {
           "category": "Pane",
