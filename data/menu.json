@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-25T05:40:26.772Z",
+  "updated_at": "2026-11-26T05:40:22.727Z",
   "days": {
-    "2026-10-26": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "PASTA AL POMODORO"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "FRITTATA AL FORMAGGIO"
-        },
-        {
-          "category": "Contorno",
-          "dish": "FAGIOLINI* ALL'OLIO"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE INTEGRALE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        }
-      ]
-    },
     "2026-10-27": {
       "closed": false,
       "items": [
@@ -782,6 +757,10 @@
       ]
     },
     "2026-12-05": {
+      "closed": true,
+      "items": []
+    },
+    "2026-12-06": {
       "closed": true,
       "items": []
     }
