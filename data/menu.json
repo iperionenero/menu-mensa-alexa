@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-26T05:40:22.727Z",
+  "updated_at": "2026-11-27T05:40:20.614Z",
   "days": {
-    "2026-10-27": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "SPAGHETTI AL RAGU' BOLOGNESE"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "ACQUA"
-        },
-        {
-          "category": "Contorno",
-          "dish": "INSALATA MAIS E OLIVE NERE"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        }
-      ]
-    },
     "2026-10-28": {
       "closed": false,
       "items": [
@@ -763,6 +738,31 @@
     "2026-12-06": {
       "closed": true,
       "items": []
+    },
+    "2026-12-07": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RAVIOLI DI MAGRO IN BRODO VEGETALE"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "FORMAGGIO ASIAGO"
+        },
+        {
+          "category": "Contorno",
+          "dish": "SPINACI ALL'OLIO"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
     }
   }
 }
