@@ -1,33 +1,8 @@
 {
   "menu": "INFANZIA",
   "source": "https://www.menuchiaro.it/cinisellobalsamo/it#/MenuDettaglio/MTA2ODA2X01JQ0lJTg==/Utenza/SU5G",
-  "updated_at": "2026-11-27T05:40:20.614Z",
+  "updated_at": "2026-11-28T05:40:20.054Z",
   "days": {
-    "2026-10-28": {
-      "closed": false,
-      "items": [
-        {
-          "category": "Primo piatto",
-          "dish": "PASTA AGLI AROMI"
-        },
-        {
-          "category": "Secondo piatto",
-          "dish": "PLATESSA* IMPANATA"
-        },
-        {
-          "category": "Contorno",
-          "dish": "CAROTE JULIENNE"
-        },
-        {
-          "category": "Pane",
-          "dish": "PANE"
-        },
-        {
-          "category": "Frutta Dessert",
-          "dish": "FRUTTA ESTIVA"
-        }
-      ]
-    },
     "2026-10-29": {
       "closed": false,
       "items": [
@@ -757,6 +732,31 @@
         {
           "category": "Pane",
           "dish": "PANE INTEGRALE"
+        },
+        {
+          "category": "Frutta Dessert",
+          "dish": "FRUTTA DI STAGIONE"
+        }
+      ]
+    },
+    "2026-12-08": {
+      "closed": false,
+      "items": [
+        {
+          "category": "Primo piatto",
+          "dish": "RISOTTO ALLA PARMIGIANA"
+        },
+        {
+          "category": "Secondo piatto",
+          "dish": "UOVA STRAPAZZATE"
+        },
+        {
+          "category": "Contorno",
+          "dish": "FINOCCHI JULIENNE"
+        },
+        {
+          "category": "Pane",
+          "dish": "PANE"
         },
         {
           "category": "Frutta Dessert",
